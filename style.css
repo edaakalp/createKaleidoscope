@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: black;
+  
+}
+
+* {
+  scrollbar-width: x;
+  scrollbar-color: orange black;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.shapeFs{
+  color:orange;
+  border-color: gray;
+  height: 70px;
+  width: 200px;
+}
+
+.strokeFs{
+  color:orange;
+  border-color: gray;
+  height: 50px;
+  width: 200px;
+}
+
+.generalDiv {
+  color:orange;
+  border-color: gray;
+  max-height: 180px;
+  height: 180px;
+  width: 200px;
+  background-color: black;
+  overflow-y: scroll;
+}
+
+
+.generalDiv > * {
+
+}
+
+
