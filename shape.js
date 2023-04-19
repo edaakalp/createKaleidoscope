@@ -48,9 +48,10 @@ class Shape {
   
   for (let i = 0; i < 10; i ++) {
     ellipse(0, 50, 50, 80);
-    rotate(PI/4);
+    rotate(PI / 4);
   }
   fill(this.strokeColor);
+  strokeWeight(this.strokeSize);
   ellipse(0, 0, 40, 40);
  }
   
